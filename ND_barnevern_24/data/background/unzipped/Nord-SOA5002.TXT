@@ -1,0 +1,10 @@
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1500	MASOSVITD	Master i sosialvitenskap, deltid	2023	HØST	Bodø															0	100	0	K	49			BACHBARN	Bachelor i barnevern (HINN)
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1501	MASOSVIT	Master i sosialvitenskap	2023	HØST	Bodø	I007	Drama	MD	Musikk, dans og drama	2	VG1331	Matematikk 1MY (ny plan)					34,7	34,7	34,7	0	100	0	K	39			BABEV	Bachelor i barnevern 
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1502	MASOSVITD	Master i sosialvitenskap, deltid	2023	HØST	Bodø					4	-	-					43	43	43				K	49			BABEV	Bachelor i barnevern 
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1503	MASOSVIT	Master i sosialvitenskap	2023	HØST	Bodø	PBPBY3	Vg3 påbygging til generell studiekompetanse for yrkesfaglige utdanningsprogram			5	MAT1005	Matematikk 2P-Y					46,1	46,1	54,1	3,33	0	67	K	33			BASOA	Bachelor i sosialt arbeid 
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1504	MASOSVIT	Master i sosialvitenskap	2023	HØST	Bodø															1	67	0	K	40			BABEV	Bachelor i barnevern 
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1505	MASOSVITD	Master i sosialvitenskap, deltid	2023	HØST	Bodø												29,3	29,3	29,3	0	100	0	K	38			BASOA	Bachelor i sosialt arbeid 
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1506	MASOSVIT	Master i sosialvitenskap	2023	HØST	Bodø	STSSA3	Språk, samfunnsfag og økonomi vg3	ST	Studiespesialisering	1,7	MAT1011	Matematikk 1P					32	32	32	0	100	0	K	23			BABEV	Bachelor i barnevern 
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1507	MASOSVITD	Master i sosialvitenskap, deltid	2023	HØST	Bodø												43,5	43,5	45,5				K	40			BABEV	Bachelor i barnevern 
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1508	MASOSVIT	Master i sosialvitenskap	2023	HØST	Bodø	F012	Hjelpepleier	HS	Helse- og oppvekstfag	3	VF1320	Matematikk 1M (ny plan)	3				32,4	32,4	42,4	0,33	67	0	K	38			BASOA	Bachelor i sosialt arbeid 
+204	SOA5002	1	SKRIFTLIG1	2023	HØST	1509	MASOSVIT	Master i sosialvitenskap	2023	HØST	Bodø	MEMOK3	Medier og kommunikasjon vg3	ME	Medier og kommunikasjon (studieforberedende)	2,5	MAT1015	Matematikk 2P					41,2	41,2	41,2	0	100	0	K	23			BABEV	Bachelor i barnevern 

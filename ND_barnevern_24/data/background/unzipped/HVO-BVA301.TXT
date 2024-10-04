@@ -1,0 +1,16 @@
+223	BVA301	1	OS-S	2023	12	1750	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST																0	100	0	K	47			RSF1V	Rus - samfunnsproblem, førebygging og behandling
+223	BVA301	1	OS-S	2023	12	1752	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST													41,1	41,1	41,1	3	0	0	K	44			BVPBV	Sosialt arbeid, barnevernspedagog - bachelor
+223	BVA301	1	OS-S	2023	12	1760	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST																4	0	100	M	47			ASHM	ASH åpne emner masternivå
+223	BVA301	1	OS-S	2023	12	1761	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST		A004	Allmenne fag	AA	Allmenne, økonomiske og administrative fag	4	VG1300	Matematikk 1MA-A (med modul 2A)(elever)						40,8		2	0	0	K	42			HBU02	Bachelor i barnevern (OSLOMET)
+223	BVA301	1	OS-S	2023	12	1764	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST													34	34	34				M	49			BACHELOR	Bachelor (HVL)
+223	BVA301	1	OS-S	2023	12	1765	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST		A010	Allmennfaglig påbygging	AA	Allmenne, økonomiske og administrative fag	3,5	VF1320	Matematikk 1M (ny plan)	4					36,4		0	100	0	K	39			SOSBV	Sosialt arbeid, sosionom - bachelor
+223	BVA301	1	OS-S	2023	12	1766	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST		A010	Allmennfaglig påbygging	AA	Allmenne, økonomiske og administrative fag	2	VF1320	Matematikk 1M (ny plan)					35,7	35,7	35,7	0	100	0	K	37			BVPBV	Sosialt arbeid, barnevernspedagog - bachelor
+223	BVA301	1	OS-S	2023	12	1769	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST																			M	49			BVPBV	Sosialt arbeid, barnevernspedagog - bachelor
+223	BVA301	1	OS-S	2023	12	1770	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST		A010	Allmennfaglig påbygging	AA	Allmenne, økonomiske og administrative fag	3,5	VF1320	Matematikk 1M (ny plan)	4				40,8	40,8	40,8	2	0	0	K	36			BVPBV	Sosialt arbeid, barnevernspedagog - bachelor
+223	BVA301	1	OS-S	2023	12	1771	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST		A010	Allmennfaglig påbygging	AA	Allmenne, økonomiske og administrative fag	3	VG1300	Matematikk 1MA-A (med modul 2A)(elever)	3				31,5	31,5	31,5				K	40			BLUBVA	Arbeidsplassbasert barnehagelærerutdanning
+223	BVA301	1	OS-S	2023	12	1772	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST													33,3	33,3	33,3	2	0	0	K	41			SOSBV	Sosialt arbeid, sosionom - bachelor
+223	BVA301	1	OS-S	2023	12	1773	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST																			K	54			BVPBV	Sosialt arbeid, barnevernspedagog - bachelor
+223	BVA301	1	OS-S	2023	12	1774	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST		PBPBY3	Vg3 påbygging til generell studiekompetanse for yrkesfaglige utdanningsprogram			5	MAT1005	Matematikk 2P-Y					41,5	41,5	51,5	5	0	100	M	27			BVPBV	Sosialt arbeid, barnevernspedagog - bachelor
+223	BVA301	1	OS-S	2023	12	1775	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST		A010	Allmennfaglig påbygging	AA	Allmenne, økonomiske og administrative fag	3	VG1300	Matematikk 1MA-A (med modul 2A)(elever)	4					41,2		0	100	0	K	41			BACHELOR	Bachelor (HVL)
+223	BVA301	1	OS-S	2023	12	1776	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST						3	-	-					36,6	36,6	36,6	2	0	0	K	39			SOSBV	Sosialt arbeid, sosionom - bachelor
+223	BVA301	1	OS-S	2023	12	1777	BVAMGD	Barnevernsarbeid - master (deltid)	2023	HØST																3	0	0	K	47			BACHELOR	Bachelor (HVL)

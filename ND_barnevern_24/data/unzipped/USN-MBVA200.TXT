@@ -1,0 +1,11 @@
+222	MBVA200	1	S	2023	HØST-NY	1350	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn	A004	Allmenne fag	AA	Allmenne, økonomiske og administrative fag	3	VG1301	Matematikk 1MA-B (med modul 2B)(elever)					40	40	41	4,33	0	67	K	41			070	Bachelor i barnevern 
+222	MBVA200	1	S	2023	HØST-NY	1351	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn	STSSA3	Språk, samfunnsfag og økonomi vg3	ST	Studiespesialisering	2	MAT1003	Matematikk praktisk, Vg2 studieforberedende utdanningsprogram					25	25	25	2,67	0	0	M	31			B-BARNEV	Bachelor i barnevern (UIS)
+222	MBVA200	1	S	2023	HØST-NY	1352	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn												31,76	31,76	31,76	2,67	33	33	K	44			BVEL03	Bachelor i velferdsfag (OSLOMET)
+222	MBVA200	1	S	2023	HØST-NY	1353	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn	A004	Allmenne fag	AA	Allmenne, økonomiske og administrative fag	3	VG1300	Matematikk 1MA-A (med modul 2A)(elever)					30	30	32	4,33	0	67	K	40			BACHBARN	Bachelor i barnevern (HINN)
+222	MBVA200	1	S	2023	HØST-NY	1354	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn	PBPBY3	Vg3 påbygging til generell studiekompetanse for yrkesfaglige utdanningsprogram			2	MAT1005	Matematikk 2P-Y					32,5	32,5	32,5	2	33	0	K	28				
+222	MBVA200	1	S	2023	HØST-NY	1355	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn												31,11	31,11	31,11	1,5	50	0	K	50			070	Bachelor i barnevern 
+222	MBVA200	1	S	2023	HØST-NY	1356	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn															2	33	0	K	58			BACHEL DHS	Bachelor i sosialt arbeid (VID)
+222	MBVA200	1	S	2023	HØST-NY	1357	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn															4,67	0	100	K	50				
+222	MBVA200	1	S	2023	HØST-NY	1358	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn												25	25	25	2	33	0	K	32			VPABU	Tverrfaglig videreutdanning i psykososialt arbeid med barn og unge
+222	MBVA200	1	S	2023	HØST-NY	1359	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn	STREA3	Realfag vg3	ST	Studiespesialisering	3,8	REA3028	Matematikk S2	3,5					38		1,67	33	33	K	29			070	Bachelor i barnevern 
+222	MBVA200	1	S	2023	HØST-NY	1360	MBVA	Master i barnevernsarbeid	2022	HØST	Campus Porsgrunn	IDIDR3	Idrettsfag vg3	ID	Idrettsfag	4,5	MAT1015	Matematikk 2P						50		4	0	100	M	26			070	Bachelor i barnevern 
