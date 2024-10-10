@@ -1,0 +1,4 @@
+ERROR [2024-10-10 08:46:55] Error in configure_logging: 
+INFO [2024-10-10 08:46:55] Attempting to load .env file
+WARN [2024-10-10 08:46:55] .env file does not exist. Proceeding without loading environment variables.
+INFO [2024-10-10 08:46:55] Finished .onLoad function: insperaAssign package loaded successfully
