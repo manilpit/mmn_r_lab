@@ -1,4 +1,4 @@
-### utils.R
+### utils.r
 
 #' Save results to CSV
 #'
@@ -75,4 +75,25 @@ get_access_token <- function() {
 
   # Extract and return the access token from the response
   purrr::pluck(httr2::resp_body_json(resp), "access_token")
+}
+
+#' Create a new test and collect its metadata
+#'
+#' @param template_id ID of the template to use
+#' @return A list containing the new test information and the path to the metadata file
+#' @export
+create_test_and_collect_metadata <- function(template_id) {
+  test_data <- create_new_test(template_id)
+  
+  if (!is.null(test_data)) {
+    metadata <- collect_and_store_test_metadata(test_data)
+    
+    return(list(
+      test_data = test_data,
+      metadata = metadata,
+      metadata_file = paste0(format(lubridate::today(), "%Y-%m-%d"), "_test_created.csv")
+    ))
+  } else {
+    return(NULL)
+  }
 }
