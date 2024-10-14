@@ -2,9 +2,9 @@
 #'
 #' This function creates multiple tests in the Inspera system using the provided parameters.
 #' The number of tests to create is determined by the NUM_TESTS variable in the .env file.
+#' The external_test_id is generated automatically.
 #'
 #' @param template_id The ID of the template to use for the tests
-#' @param external_test_id_prefix A prefix for the external test IDs
 #' @param title_prefix A prefix for the test titles
 #' @param start_time The start time of the first test (in ISO 8601 format)
 #' @param duration The duration of each test in minutes
@@ -12,7 +12,7 @@
 #'
 #' @return A list containing the created test data for each test, or NULL if creation failed
 #' @export
-create_multiple_tests <- function(template_id, external_test_id_prefix, title_prefix, start_time, duration, gap_between_tests) {
+create_multiple_tests <- function(template_id, title_prefix, start_time, duration, gap_between_tests) {
   # Load the number of tests from .env file
   num_tests <- as.numeric(Sys.getenv("NUM_TESTS"))
   if (is.na(num_tests) || num_tests <= 0) {
@@ -23,7 +23,8 @@ create_multiple_tests <- function(template_id, external_test_id_prefix, title_pr
   results <- list()
 
   for (i in 1:num_tests) {
-    external_test_id <- paste0(external_test_id_prefix, "_", i)
+    # Generate a unique external_test_id
+    external_test_id <- paste0("test_", format(Sys.time(), "%Y%m%d%H%M%S"), "_", i)
     title <- paste0(title_prefix, " ", i)
     
     # Calculate start and end times for each test
@@ -31,6 +32,7 @@ create_multiple_tests <- function(template_id, external_test_id_prefix, title_pr
     test_end_time <- test_start_time + lubridate::minutes(duration)
 
     futile.logger::flog.info("Creating test %d of %d", i, num_tests)
+    futile.logger::flog.info("External Test ID: %s", external_test_id)
     
     result <- create_new_test(
       template_id = template_id,

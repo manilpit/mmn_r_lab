@@ -1,14 +1,28 @@
 # test_creation_script.R
 
 library(insperaAssignv2)
+library(dotenv)
+library(readr)
+
+# Load environment variables
+load_dot_env()
+
+# Fetch template_id from .env
+template_id <- Sys.getenv("INSPERA_TEMPLATE_ID")
+
+# Validate template_id
+if (template_id == "") {
+  stop("INSPERA_TEMPLATE_ID is not set in the .env file")
+}
 
 # Test parameters
-template_id <- "your_template_id"  # Replace with a valid template ID
-external_test_id <- "test_001"  # Replace with a unique external test ID
+external_test_id <- "test_002"  # Replace with a unique external test ID
 title <- "Test Exam 001"
 start_time <- "2023-06-01T09:00:00Z"
 end_time <- "2023-06-01T11:00:00Z"
 duration <- 120  # in minutes
+
+cat("Creating test using template ID:", template_id, "\n\n")
 
 # Call the function
 result <- create_new_test(
@@ -26,19 +40,25 @@ if (!is.null(result)) {
   cat("Assessment Run ID:", result$assessmentRunId, "\n")
   cat("Status:", result$status, "\n")
   print(result)  # Print the entire result for inspection
-} else {
-  cat("Failed to create test.\n")
-}
 
-# Check if the metadata file was created
-today_date <- format(Sys.Date(), "%Y-%m-%d")
-metadata_file <- paste0(today_date, "_test_created.csv")
+  # Create metadata dataframe
+  metadata <- data.frame(
+    assessmentRunId = result$assessmentRunId,
+    externalTestId = external_test_id,
+    title = title,
+    startTime = start_time,
+    endTime = end_time,
+    status = result$status,
+    stringsAsFactors = FALSE
+  )
 
-if (file.exists(metadata_file)) {
-  cat("Metadata file created:", metadata_file, "\n")
-  # Read and print the contents
-  metadata <- readr::read_csv(metadata_file)
+  # Save metadata to CSV
+  today_date <- format(Sys.Date(), "%Y-%m-%d")
+  metadata_file <- paste0(today_date, "_test_created.csv")
+  write_csv(metadata, metadata_file)
+
+  cat("\nMetadata file created:", metadata_file, "\n")
   print(metadata)
 } else {
-  cat("Metadata file not found.\n")
+  cat("Failed to create test.\n")
 }
