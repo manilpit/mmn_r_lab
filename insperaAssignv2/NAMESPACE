@@ -2,6 +2,7 @@
 
 export(assign_contributors)
 export(assign_contributors_bulk)
+export(create_multiple_tests)
 export(create_new_test)
 export(create_test_and_collect_metadata)
 export(get_access_token)
